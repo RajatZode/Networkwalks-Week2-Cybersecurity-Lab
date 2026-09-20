@@ -127,9 +127,11 @@ DNSRecon
 
 ## Task 1 — WHOIS
 Command
+
 whois networkwalks.com
 
 Purpose
+
 WHOIS was used to retrieve publicly available domain registration information, including registrar information, registration dates and name servers.
 
 Key Results
@@ -144,6 +146,7 @@ Name Server: NS6136.HOSTGATOR.COM
 
 ## Task 2 — WhatWeb
 Command
+
 whatweb networkwalks.com
 Purpose
 
@@ -159,11 +162,13 @@ Bootstrap: 7.1.1
 Google Tag Manager
 HTML5
 Website Title: Networkwalks Academy
-Screenshot 11
+![whatweb](Module-1-Footprinting/screenshots/11-whatweb.png)
 
-Task 3 — NSLookup
+## Task 3 — NSLookup
 Command
+
 nslookup networkwalks.com
+
 Purpose
 
 NSLookup was used to resolve the domain name and identify its corresponding IP address.
@@ -171,11 +176,13 @@ NSLookup was used to resolve the domain name and identify its corresponding IP a
 Results
 DNS Server: 1.1.1.1
 Resolved IP Address: 192.232.216.135
-Screenshot 12
+![nslookup](Module-1-Footprinting/screenshots/12-nslookup.png)
 
-Task 4 — HTTP Response Headers
+## Task 4 — HTTP Response Headers
 Command
+
 curl -I https://networkwalks.com
+
 Purpose
 
 cURL was used to retrieve and inspect the HTTP response headers returned by the target website.
@@ -196,11 +203,14 @@ Cookie information
 WordPress REST API information
 Referrer policy
 Permissions policy
-Screenshot 13
 
-Task 5 — Web Application Firewall Detection
+![curlheader](Module-1-Footprinting/screenshots/13-curl-headers.png)
+
+## Task 5 — Web Application Firewall Detection
 Command
+
 wafw00f networkwalks.com
+
 Purpose
 
 WAFW00F was used to identify whether a Web Application Firewall was protecting the target website.
@@ -210,11 +220,14 @@ Result
 The tool reported:
 
 The site https://networkwalks.com is behind ModSecurity (SpiderLabs) WAF.
-Screenshot 14
 
-Task 6 — DNS Enumeration
+![wafs00f](Module-1-Footprinting/screenshots/14-wafw00f.png)
+
+## Task 6 — DNS Enumeration
 Command
+
 dnsrecon -d networkwalks.com
+
 Purpose
 
 DNSRecon was used to enumerate publicly available DNS information for the target domain.
@@ -236,7 +249,7 @@ The tool reported:
 
 The enumeration completed successfully.
 
-Screenshot 15
+![dnsrecon](Module-1-Footprinting/screenshots/15-dnsrecon.png)
 
 Tools Used
 Module 5
