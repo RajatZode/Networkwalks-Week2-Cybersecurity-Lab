@@ -109,9 +109,9 @@ Zenmap's Topology view was used to visualize the discovered hosts and network re
 
 
 
-Module 1 — Footprinting & Reconnaissance
-Objective
+## Module 1 — Footprinting & Reconnaissance
 
+## Objective
 The objective of this module was to perform footprinting and reconnaissance using multiple tools available in Kali Linux.
 
 The target domain used for the lab was:
@@ -124,12 +124,10 @@ NSLookup
 cURL
 WAFW00F
 DNSRecon
-Task 1 — WHOIS
-Command
-whois networkwalks.com
-Purpose
 
-WHOIS was used to retrieve publicly available domain registration information, including registrar information, registration dates and name servers.
+## Task 1 — WHOIS
+Command-whois networkwalks.com
+Purpose-WHOIS was used to retrieve publicly available domain registration information, including registrar information, registration dates and name servers.
 
 Key Results
 Domain: NETWORKWALKS.COM
@@ -138,9 +136,9 @@ Creation Date: 2019-11-06
 Expiry Date: 2027-11-06
 Name Server: NS6135.HOSTGATOR.COM
 Name Server: NS6136.HOSTGATOR.COM
-Screenshot 10
+![whois](Module-1-Footprinting/screenshots/10-whois.png)
 
-Task 2 — WhatWeb
+## Task 2 — WhatWeb
 Command
 whatweb networkwalks.com
 Purpose
