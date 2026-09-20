@@ -126,8 +126,11 @@ WAFW00F
 DNSRecon
 
 ## Task 1 — WHOIS
-Command-whois networkwalks.com
-Purpose-WHOIS was used to retrieve publicly available domain registration information, including registrar information, registration dates and name servers.
+Command
+whois networkwalks.com
+
+Purpose
+WHOIS was used to retrieve publicly available domain registration information, including registrar information, registration dates and name servers.
 
 Key Results
 Domain: NETWORKWALKS.COM
@@ -136,6 +139,7 @@ Creation Date: 2019-11-06
 Expiry Date: 2027-11-06
 Name Server: NS6135.HOSTGATOR.COM
 Name Server: NS6136.HOSTGATOR.COM
+
 ![whois](Module-1-Footprinting/screenshots/10-whois.png)
 
 ## Task 2 — WhatWeb
